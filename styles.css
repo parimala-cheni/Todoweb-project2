@@ -1,0 +1,247 @@
+*{
+    /* border: 0px;
+    margin: 0px; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F7F7F7;
+
+}
+
+.header{
+    margin: 50px 100px ;
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 700; 
+    background-color: white;
+    box-shadow: 0px 4px 6px  lightgray ;
+
+}
+.list{
+    color:#00A5EC ;
+}
+
+.add-lists{
+    /* border: 3px solid red; */
+    display: flex;
+    margin-left: 70% ;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    background-color:#00A5EC ;
+    border-radius: 50%;
+    position: relative;
+}
+.plus1{
+    background-color: white;
+    margin: 20px 9px;
+    border: 2px solid white;
+    height: 1px;
+    width: 25px;
+    position: absolute;
+}
+
+.plus2{
+    background-color: white;
+    margin-left: 21px ;
+    margin-top: 8px;
+    /* margin-bottom: 30px; */
+    border: 1px solid white;
+    height: 25px;
+    width: 2px;
+    position: absolute;
+   
+}
+
+.add{
+    margin: 13px 7px;
+    font-size: 20px;
+
+}
+
+.big-container{
+    margin-left: 150px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.to-do-items{
+    border: 2px solid #EDEDED;
+    width: 350px;
+    height: 350px;
+    margin-left: 25px ;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.to-do-items:hover{
+    box-shadow:  4px 4px 3px lightgrey, -4px -4px 3px lightgrey;
+}
+
+.text{ 
+    /* margin: 25px;  */
+    padding: 30px;
+    font-size: 25px;
+    color: #00A5EC;
+    border-bottom: 3px solid #EDEDED ;
+}
+
+.form{
+    margin: 28px;
+    font-size: 20px ;
+}
+
+input.box{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: #C2C2C2;
+}
+
+.backgrond-page{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    position: absolute;
+ 
+}
+
+/* styling the new container */
+
+.add-new-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px ;
+    height: 250px;
+    margin-left: 37%;
+    margin-top: 15%;
+    position: absolute;
+    z-index: 3;
+    /* padding: 5px; */
+}
+
+.new-task{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    position: absolute;
+   
+}
+
+.addtask{
+    margin-top: 25%;
+    margin-left: 20px;
+    width :350px;
+    height: 40px;
+    border: 2px solid #EDEDED;
+    border-radius: 5px;
+
+}
+
+.task-button{
+    border: 2px solid #00A5EC;
+    border-radius: 5px;
+    width: 150px; 
+    height: 50px;
+    color: #FFFFFF;
+    font-size:15px ;
+    background-color: #00A5EC;
+    margin-top: 40px;
+    margin-left: 57%;
+
+
+
+}
+ /* style for close button */
+ .close{
+    border: 0px;
+    font-size: 35px;
+    color:#858585 ;
+    margin-left:350px;
+    position: absolute;
+    margin-top: 10px;
+    
+ }
+
+ /*  styling the back-button and  text */
+
+ .fa{
+    color: #424242;
+    font-size: 40px;
+    margin-left: 450px;
+    position: absolute;
+ }
+
+ .back-text{
+    
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 10px;
+    position: absolute;
+ }
+
+ /* styling the  paris-card */
+
+ .paris-card{
+    margin-left: 30%;
+ }
+
+ .to-do-items1{
+    border: 2px solid #EDEDED;
+    width: 450px;
+    height: 300px;
+    margin-left: 80px ;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow:  3px 3px 7px  lightgrey, -3px -3px 7px lightgrey;
+
+ }
+
+ .text1{
+    padding: 30px;
+    font-size: 25px;
+    text-align: center;
+    color: #00A5EC;
+    border-bottom: 3px solid #EDEDED;
+
+ }
+ .form1{
+    margin: 28px;
+    font-size: 20px ;
+}
+
+input.box1{
+    width: 25px;
+    height: 25px;
+    margin-top: 10px;
+    background-color: #C2C2C2;
+}
+
+/* styling the new-list-page */
+.paris-background{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    /* position: absolute; */
+}
+
+
+
+.add-new-container1{
+
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 400px ;
+    height: 250px;
+    margin: 0px;
+    margin-left: 37%;
+    margin-top: 5%;
+    position: absolute;
+    z-index: 3;
+}
+
+.paris-card1{
+    margin-left: 30%;
+    position: absolute;
+ }
+
+ a{
+    text-decoration: none;
+ }
